@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  display: grid;
+  justify-content: center;
+  margin-top: 25px;
+  background-color: #222222;
+  color: #FFF;
+}
+
+.App {
+  width: 400px;
+  background-color: rgb(25, 25, 25);
+  display: grid;
+  justify-content: center;
+  padding: 15px;
+}
+
+.info {
+  width: 200px;
+  background-color: rgb(17, 17, 17);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  padding-bottom: 5px;
+}
+.info img {
+  width: 200px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.info h1 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  margin: 5px 0;
+}
+.info h2 {
+  font-size: 10px;
+  text-align: center;
+  font-weight: 100;
+  margin: 0;
+}
+.info h5 {
+  font-size: 6px;
+  text-align: center;
+  font-weight: 100;
+  margin: 3px 0;
+}
+.info__buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.info__buttons--button1 {
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 10px;
+  margin-right: 5px;
+}
+.info__buttons--button1 i {
+  margin: 0 5px;
+}
+.info__buttons--button1 a {
+  text-decoration: none;
+  color: #000;
+}
+.info__buttons--button2 {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 10px;
+  background-color: rgb(77, 131, 205);
+  margin-left: 5px;
+}
+.info__buttons--button2 i {
+  margin: 0 5px;
+}
+.info__buttons--button2 a {
+  text-decoration: none;
+  color: #FFF;
+}
+.info__buttons :hover {
+  opacity: 0.7;
+}
+
+.about {
+  width: 200px;
+  background-color: rgb(17, 17, 17);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.about h2 {
+  font-size: 12px;
+  padding-left: 15px;
+  margin: 0;
+}
+.about p {
+  padding-bottom: 5px;
+  font-size: 8px;
+  padding-left: 15px;
+  width: 170px;
+  line-height: 1.2em;
+}
+
+.interests {
+  width: 200px;
+  background-color: rgb(17, 17, 17);
+  margin: 0;
+  padding-bottom: 5px;
+}
+.interests h2 {
+  font-size: 12px;
+  padding-left: 15px;
+  margin: 0;
+}
+.interests ul li {
+  padding-bottom: 5px;
+  font-size: 8px;
+  padding-left: 15px;
+  width: 170px;
+  line-height: 1.2em;
+}
+
+.footer {
+  display: flex;
+  width: 200px;
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 1px 0;
+}
+.footer ul {
+  display: flex;
+  justify-content: center;
+}
+.footer ul li {
+  list-style: none;
+  margin: 0 7px;
+}
+.footer ul li i {
+  font-size: 22px;
+  color: darkgray;
+  cursor: pointer;
+}
+.footer ul li i:hover {
+  color: #FFF;
+}/*# sourceMappingURL=App.css.map */
